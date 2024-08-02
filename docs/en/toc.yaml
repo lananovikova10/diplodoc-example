@@ -7,7 +7,7 @@ items:
     href: anotherpage.md
     hidden: true
   - name: Install Fuel
-    href: install
+    href: install.md
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml

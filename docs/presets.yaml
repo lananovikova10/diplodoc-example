@@ -1,0 +1,6 @@
+default:
+    position: The Wizard
+internal:
+    place: Emerald City
+external:
+    place: The Land of Oz

@@ -2,6 +2,12 @@
 
 The easiest HTTP networking library for Kotlin backed by Kotlinx Coroutines.
 
+{% cut "Click to see more" %}
+
+Content displayed when clicked.
+
+{% endcut %}
+
 ## Advantages of the Fuel
 ### Easy to use
 - Work with documents in the same way as with code
