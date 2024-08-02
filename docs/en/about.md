@@ -1,6 +1,8 @@
 # About Fuel
 
-The easiest HTTP networking library for Kotlin backed by Kotlinx Coroutines.
+The easiest HTTP networking library for Kotlin backed by [Kotlinx](*Kotlinx) Coroutines.
+
+[*Kotlinx]: Explaining a term or abbreviation using definition syntax.
 
 {% cut "Click to see more" %}
 
