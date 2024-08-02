@@ -1,12 +1,13 @@
-title: Documentation Project Template
+title: Fuel
 href: index.yaml
 items: 
-  - name: About
+  - name: About Fuel
     href: about.md
-  - name: Additional page 
-    href: page.md
   - name: Another page 
     href: anotherpage.md
+    hidden: true
+  - name: Install Fuel
+    href: install
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml
