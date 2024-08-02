@@ -2,8 +2,6 @@
 
 The easiest HTTP networking library for Kotlin backed by [Kotlinx](*Kotlinx) Coroutines.
 
-[*Kotlinx]: Explaining a term or abbreviation using definition syntax.
-
 {% cut "Click to see more" %}
 
 Content displayed when clicked.
@@ -38,3 +36,5 @@ Content displayed when clicked.
 
 - If you are using Android, It needs to be Android 5+.
 - Java 8+
+
+[*Kotlinx]: Explaining a term or abbreviation using definition syntax.
