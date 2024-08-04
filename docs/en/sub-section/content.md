@@ -1,4 +1,15 @@
-# Sub-Section with content 
+# Configuring Timeouts
 
-This is an example page for demonstation how sub-sections can be organized. 
-More details about subsections inclusion can be found [here](https://diplodoc.com/docs/en/project/toc)
+Customize connection and read timeouts with `HttpClientConfig`:
+
+```kotlin
+import com.example.kotlinstream.HttpClientConfig
+
+val config = HttpClientConfig().apply {
+    connectionTimeout = 10000 // 10 seconds
+    readTimeout = 10000 // 10 seconds
+}
+
+val client = HttpClient(config)
+```
+

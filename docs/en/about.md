@@ -2,9 +2,6 @@
 
 Stream is a streamlined HTTP networking library for Kotlin, leveraging [Kotlinx Coroutines](*Kotlin Coroutines) for efficient, asynchronous network operations. It offers a clean API and seamless integration with Kotlin Flow for handling real-time data streams.
 
-Use of the [term](*term_key) in the text.
-
-
 {% cut "Click to see more" %}
 
 Content displayed when clicked.

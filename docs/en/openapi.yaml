@@ -1,0 +1,141 @@
+openapi: 3.0.0
+info:
+  title: Stream API
+  description: This is the API documentation for the KotlinStream HTTP networking library.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+    description: Production server
+  - url: https://api.staging.example.com
+    description: Staging server
+paths:
+  /data:
+    get:
+      summary: Retrieve data
+      description: Fetches data from the server.
+      responses:
+        '200':
+          description: Successful response with data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: string
+                    description: The data retrieved from the server
+        '400':
+          description: Bad request
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+    post:
+      summary: Submit data
+      description: Submits data to the server for processing.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                key:
+                  type: string
+                  description: Key to identify the data
+                value:
+                  type: string
+                  description: Value associated with the key
+      responses:
+        '201':
+          description: Data successfully created
+        '400':
+          description: Bad request
+        '500':
+          description: Internal server error
+  /data/{id}:
+    get:
+      summary: Retrieve data by ID
+      description: Fetches data from the server by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the data to retrieve
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: string
+                    description: The data retrieved from the server
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+    put:
+      summary: Update data by ID
+      description: Updates data on the server by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the data to update
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                key:
+                  type: string
+                  description: Key to identify the data
+                value:
+                  type: string
+                  description: Updated value associated with the key
+      responses:
+        '200':
+          description: Data successfully updated
+        '400':
+          description: Bad request
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+    delete:
+      summary: Delete data by ID
+      description: Deletes data from the server by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the data to delete
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Data successfully deleted
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+          example: 500
+        message:
+          type: string
+          example: Internal Server Error

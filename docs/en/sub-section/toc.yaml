@@ -1,5 +1,7 @@
-title: Sub-section Example TOC
+title: Advanced Usage
 href: index.yaml
 items:
   - name: Content page under sub-section
     href: content.md
+  - name: Content page under sub-section
+    href: auth.md
