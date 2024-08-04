@@ -11,8 +11,6 @@ dependencies {
 
 ```
 
-<!-- ![](../../images/stream.png) -->
-
 ## Basic Usage
 
 Here's a simple example of how to perform a GET request using Stream:
