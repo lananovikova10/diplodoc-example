@@ -1,5 +1,7 @@
 default:
     position: The Wizard
+    version: 1.0
+    product: Stream
 internal:
     place: Emerald City
 external:
