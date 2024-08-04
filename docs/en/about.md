@@ -1,6 +1,6 @@
 # About Stream
 
-Stream is a streamlined HTTP networking library for Kotlin, leveraging [Kotlinx Coroutines](*Kotlin Coroutines) for efficient, asynchronous network operations. It offers a clean API and seamless integration with Kotlin Flow for handling real-time data streams.
+Stream is a streamlined HTTP networking library for Kotlin, leveraging [Kotlinx Coroutines](*Kotlin-Coroutines) for efficient, asynchronous network operations. It offers a clean API and seamless integration with Kotlin Flow for handling real-time data streams.
 
 {% cut "Click to see more" %}
 
@@ -8,18 +8,7 @@ Content displayed when clicked.
 
 {% endcut %}
 
-[ ] Images
-[ ] Complex markup, like tabs, tables, lists nested, cuts
-[ ] Local build all the modes, one page, etc
-[ ] Error list
-[ ] Open api specs
-[ ] Ability to mute errors
-[ ] Plugin or local tool for completions - maybe VSCode
-[ ] includes variables ifs
-[ ] i18n
-[ ] table with features comparison
-
-## Advantages of the Fuel
+## Advantages of the Stream
 
 ### Easy to use
 - Work with documents in the same way as with code
@@ -45,4 +34,4 @@ Stream is built to work seamlessly with Kotlinx Coroutines, allowing for efficie
 ### Flow Integration
 Stream enables the use of Kotlin Flow for managing streaming responses, which is ideal for handling large or continuous data updates.
 
-[*Kotlinx Coroutines]: Kotlin Coroutines are a concurrency design pattern that allows you to write asynchronous code as if it were synchronous. They provide a way to perform tasks in parallel without the need for complex thread management or callback chains, making your code more straightforward and easier to understand.
+[*Kotlinx-Coroutines]: Kotlin Coroutines are a concurrency design pattern that allows you to write asynchronous code as if it were synchronous. They provide a way to perform tasks in parallel without the need for complex thread management or callback chains, making your code more straightforward and easier to understand.

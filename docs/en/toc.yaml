@@ -1,12 +1,12 @@
 title: Fuel
 href: index.yaml
 items: 
-  - name: About Fuel
+  - name: About Stream
     href: about.md
   - name: Another page 
     href: anotherpage.md
     hidden: true
-  - name: Install Fuel
+  - name: Install
     href: install.md
   - name: Getting started
     href: getting-started.md
