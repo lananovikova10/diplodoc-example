@@ -8,7 +8,13 @@ items:
     hidden: true
   - name: Install Fuel
     href: install.md
-  - name: Sub-Section 
+  - name: Getting started
+    href: getting-started.md
+  - name: Errors
+    href: errors.md
+  - name: API reference
+    href: reference.md
+  - name: Advanced scenarios
     include:
       path: sub-section/toc.yaml
       mode: link
