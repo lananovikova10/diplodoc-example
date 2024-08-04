@@ -1,6 +1,6 @@
 # About Stream
 
-not_var{{ product }} is a streamlined HTTP networking library for Kotlin, leveraging [Kotlinx Coroutines](*Kotlin-Coroutines) for efficient, asynchronous network operations. It offers a clean API and seamless integration with Kotlin Flow for handling real-time data streams.
+{{ product }} is a streamlined HTTP networking library for Kotlin, leveraging [Kotlinx Coroutines](*Kotlin-Coroutines) for efficient, asynchronous network operations. It offers a clean API and seamless integration with Kotlin Flow for handling real-time data streams.
 
 {% cut "Click to see more" %}
 
